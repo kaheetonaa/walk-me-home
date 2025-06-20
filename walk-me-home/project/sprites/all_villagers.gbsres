@@ -1,0 +1,101 @@
+{
+  "_resourceType": "sprite",
+  "id": "74031192-2143-46f7-b708-d50287a6eba6",
+  "name": "All Villagers",
+  "symbol": "sprite_animal_crossing_spri",
+  "numFrames": 6,
+  "filename": "All Villagers.png",
+  "checksum": "b9bb890d4cd2c53a2a4fc729c02cc3a9fa5f3d21",
+  "width": 96,
+  "height": 144,
+  "states": [
+    {
+      "id": "8da2b26d-1b10-49ae-8402-d0668ae255a3",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "c4d9affb-c29e-4b45-aedb-0f18c5373c3a",
+          "frames": [
+            {
+              "id": "366c3173-a3bf-42a3-8acb-bcccd5991768",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "8b7f9c5d-03a9-4e54-b8e8-62005c4a430b",
+          "frames": [
+            {
+              "id": "e2b6cd45-70df-4616-8195-7967fda51395",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "a3ec9468-10c5-480f-bb7a-ea45a4100e29",
+          "frames": [
+            {
+              "id": "ac3464d2-b3b2-4fee-b8d8-4cf03298042a",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "53db316a-b543-4a99-a549-30c70f8f959f",
+          "frames": [
+            {
+              "id": "2bd931f8-1c34-4e00-8353-721ab3684183",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "4008a902-ccfe-481a-9b81-bee487ca37d5",
+          "frames": [
+            {
+              "id": "678f7432-1f13-4fb0-a9f8-82e8958d4cdd",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "a57ab12d-cfbc-4910-a985-7233de63cfa4",
+          "frames": [
+            {
+              "id": "75b1633b-cdd8-46e8-84e0-ce19af6ff2b5",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "f6026860-1c3f-4d66-95e0-37c345b2a65c",
+          "frames": [
+            {
+              "id": "5c2c1515-fe59-4f22-8722-8b89030d4976",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "54776c5f-162f-4586-a614-c09086037251",
+          "frames": [
+            {
+              "id": "03c7cb6f-21d4-4925-89b3-45bd75c04db0",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15
+}

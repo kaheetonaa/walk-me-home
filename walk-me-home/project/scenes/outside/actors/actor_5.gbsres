@@ -1,0 +1,95 @@
+{
+  "_resourceType": "actor",
+  "id": "076a0612-024a-426a-85fc-3e1054b9f74e",
+  "_index": 4,
+  "symbol": "actor_4",
+  "prefabId": "",
+  "name": "",
+  "x": 4,
+  "y": 6,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "1e27bb8e-c805-435a-8b87-05b4f50da4f0",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": true,
+  "collisionGroup": "1",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "id": "9769786a-b499-4657-917e-05c7e96cf2f4",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": "Meow!"
+      }
+    },
+    {
+      "id": "c585ca68-8cb8-4a26-bcff-072845e80702",
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "0",
+        "value": {
+          "type": "true"
+        }
+      }
+    }
+  ],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "28f481fe-aaa4-4f05-9dd3-0d92731c7174"
+    }
+  ],
+  "updateScript": [
+    {
+      "command": "EVENT_ACTOR_GET_POSITION",
+      "args": {
+        "actorId": "player",
+        "vectorX": "12",
+        "vectorY": "4"
+      },
+      "id": "8c0b187f-a43e-4e6b-8103-029448a4d00c"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "variable",
+          "value": "12"
+        },
+        "y": {
+          "type": "variable",
+          "value": "4"
+        },
+        "moveType": "horizontal",
+        "useCollisions": true
+      },
+      "id": "cc0a14b8-ea58-4550-bf6c-372277535658"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.5,
+        "frames": 30
+      },
+      "id": "a7d3b4cf-3416-48ea-b93b-e0aac31abdb1"
+    },
+    {
+      "command": "EVENT_DEC_VALUE",
+      "args": {
+        "variable": "10"
+      },
+      "id": "9e6136fd-7697-4ac1-bfdf-2bed8429d5cf"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}
